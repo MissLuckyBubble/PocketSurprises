@@ -1,0 +1,28 @@
+{
+    "welcome_message": "¡Bienvenido al Calendario de Adviento Digital!",
+    "choose_language": "Por favor seleccione un idioma para continuar:",
+    "continue": "Continuar",
+    "register": "Registrarse",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "by_registering": "Al registrarte, aceptas nuestros",
+    "t&c": "Términos y Condiciones",
+    "and": "y",
+    "privacy_policy": "Política de Privacidad.",
+    "already_have_account": "¿Ya tienes una cuenta?",
+    "login": "Iniciar sesión",
+    "no_account": "¿No tienes una cuenta?",
+    "forgot_password": "Olvidaste tu contraseña",
+    "forgot_password_instructions": "Introduce tu correo electrónico para recibir un enlace para restablecer tu contraseña.",
+    "send_reset_link": "Enviar enlace de restablecimiento",
+    "sending": "Enviando...",
+    "loading": "Cargando",
+    "success": "Éxito",
+    "acc_created": "¡Cuenta creada con éxito!",
+    "error": "Error",
+    "please_fill_fields": "Por favor, rellena todos los campos.",
+    "login_successful": "¡Inicio de sesión exitoso!",
+    "google_continue": "Continuar con Google"
+
+  }
+  

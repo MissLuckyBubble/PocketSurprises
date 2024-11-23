@@ -1,0 +1,28 @@
+{
+    "welcome_message": "Willkommen zum Digitalen Adventskalender!",
+    "choose_language": "Bitte wählen Sie eine Sprache aus, um fortzufahren:",
+    "continue":"Weitermachen",
+    "register": "Registrieren",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "by_registering": "Mit der Registrierung stimmen Sie unseren",
+    "t&c": "Allgemeinen Geschäftsbedingungen",
+    "and": "und",
+    "privacy_policy": "Datenschutzerklärung zu.",
+    "already_have_account": "Haben Sie bereits ein Konto?",
+    "login": "Anmelden",
+    "no_account": "Haben Sie kein Konto?",
+    "forgot_password": "Passwort vergessen",
+    "forgot_password_instructions": "Geben Sie Ihre E-Mail-Adresse ein, um einen Link zum Zurücksetzen des Passworts zu erhalten.",
+    "send_reset_link": "Link zum Zurücksetzen senden",
+    "sending": "Senden...",
+    "loading": "Laden",
+    "success": "Erfolg",
+    "acc_created": "Konto erfolgreich erstellt!",
+    "error": "Fehler",
+    "please_fill_fields": "Bitte füllen Sie alle Felder aus.",
+    "login_successful": "Anmeldung erfolgreich!",
+    "google_continue": "Weiter mit Google"
+
+  }
+  

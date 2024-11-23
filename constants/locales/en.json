@@ -1,0 +1,27 @@
+{
+    "welcome_message": "Welcome \nto the Digital Advent Calendar!",
+    "choose_language": "Please select a language\nto continue:",
+    "continue":"Continue",
+    "register": "Register",
+    "email": "Email",
+    "password": "Pasword",
+    "by_registering":"By registering, you agree to our",
+    "t&c": "Terms and Conditions",
+    "and": "and",
+    "privacy_policy" : "Privacy Policy.",
+    "already_have_account": "Already have an account?",
+    "login": "Login",
+    "no_account": "Don’t have an account?",
+    "forgot_password": "Forgot Password",
+    "forgot_password_instructions": "Enter your email to receive a password reset link.",
+    "send_reset_link": "Send Reset Link",
+    "sending": "Sending...",
+    "loading" : "Loading",
+    "success": "Success",
+    "acc_created": "Account created successfully!",
+    "error": "Error",
+    "please_fill_fields": "Please fill in all fields.",
+    "login_successful": "Login successful!",
+    "google_continue": "Continue with Google"
+  }
+  
