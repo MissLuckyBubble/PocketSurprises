@@ -3,30 +3,29 @@ import { Stack } from "expo-router";
 import { onAuthStateChanged } from "firebase/auth";
 import { auth } from "../../constants/firebase";
 import colors from "../../constants/Colors";
-import LoadingScreen from "../others/loading"; // Import the loading screen
+import LoadingScreen from "../others/loading";
 
 export default function Layout() {
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [isAuthenticated, setIsAuthenticated] = useState(null);
   const [isCheckingAuth, setIsCheckingAuth] = useState(true);
 
   useEffect(() => {
-    // Listen for authentication state changes
     const unsubscribe = onAuthStateChanged(auth, (user) => {
       if (user) {
-        console.log("User is logged in:", user.email); // Debugging log
-        setIsAuthenticated(true); // Set user as authenticated
+        console.log("User is logged in:", user.email);
+        setIsAuthenticated(true);
       } else {
-        console.log("User is not logged in."); // Debugging log
-        setIsAuthenticated(false); // User is not authenticated
+        console.log("User is not logged in.");
+        setIsAuthenticated(false);
       }
-      setIsCheckingAuth(false); // Stop checking auth
+      console.log("User is auth:", isAuthenticated);
+      setIsCheckingAuth(false);
     });
 
-    return () => unsubscribe(); // Cleanup the listener
+    return () => unsubscribe();
   }, []);
 
   if (isCheckingAuth) {
-    // Show the loading screen while authentication is being checked
     return <LoadingScreen />;
   }
 
@@ -39,8 +38,10 @@ export default function Layout() {
       }}
     >
       {isAuthenticated ? (
+        // Render screens for authenticated users
         <Stack.Screen name="home" />
       ) : (
+        // Render screens for unauthenticated users
         <>
           <Stack.Screen name="index" />
           <Stack.Screen name="register" />
