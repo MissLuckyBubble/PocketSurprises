@@ -13,13 +13,12 @@ import {
 } from "react-native";
 import { useRouter } from "expo-router";
 import { sendPasswordResetEmail } from "firebase/auth";
-import { auth } from "../../../constants/firebase";
-import colors from "../../../constants/Colors";
-import i18n from "../../../constants/i18n";
+import { auth } from "../../constants/firebase";
+import colors from "../../constants/Colors";
+import i18n from "../../constants/i18n";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { FontAwesomeIcon } from "@fortawesome/react-native-fontawesome";
-import { faArrowAltCircleLeft } from "@fortawesome/free-regular-svg-icons";
-import BackButton from "../../../components/BackButton";
+import BackButton from "../../components/BackButton";
+import AppIcon from "../../components/AppIcon";
 
 const ForgotPasswordScreen = () => {
   const [email, setEmail] = useState("");
@@ -57,10 +56,7 @@ const ForgotPasswordScreen = () => {
         <View style={styles.MainContainer}>
           <SafeAreaView style={styles.headContainer}>
             <BackButton />
-            <Image
-              source={require("../../../assets/images/icon.png")}
-              style={styles.appIcon}
-            />
+            <AppIcon />
           </SafeAreaView>
           <View style={styles.ContentConteiner}>
             <Text style={styles.title}>{i18n.t("forgot_password")}</Text>
@@ -105,11 +101,6 @@ const styles = StyleSheet.create({
     borderTopLeftRadius: 50,
     borderTopRightRadius: 50,
   },
-  appIcon: {
-    width: 300,
-    height: 225,
-    borderRadius: 15,
-  },
   title: {
     fontSize: 28,
     fontWeight: "bold",
@@ -147,7 +138,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   resetButtonText: {
-    color: colors.backgroundLight,
+    color: colors.crema,
     fontSize: 18,
     fontWeight: "bold",
   },

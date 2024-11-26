@@ -22,6 +22,15 @@
     "error": "Error",
     "please_fill_fields": "Please fill in all fields.",
     "login_successful": "Login successful!",
-    "google_continue": "Continue with Google"
+    "google_continue": "Continue with Google",
+    "cancel": "Cancel",
+    "close" : "Close",
+    "logout_confirm": "Are you sure you want to log out?",
+    "logout" : "Logout",
+    "settings" : "Settings",
+    "received_surprises": "Received Surprises",
+    "shared_surprises": "Shared Surprises",
+    "new_advent_calendar": "New Advent Calendar",
+    "my_pocket_surprises": "My Pocket Surprises"
   }
   

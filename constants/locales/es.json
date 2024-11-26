@@ -22,7 +22,16 @@
     "error": "Error",
     "please_fill_fields": "Por favor, rellena todos los campos.",
     "login_successful": "¡Inicio de sesión exitoso!",
-    "google_continue": "Continuar con Google"
+    "google_continue": "Continuar con Google",
+    "cancel": "Cancelar",
+    "close": "Cerrar",
+    "logout_confirm": "¿Estás seguro de que deseas cerrar sesión?",
+    "logout": "Cerrar sesión",
+    "settings": "Configuraciones",
+    "received_surprises": "Sorpresas Recibidas",
+    "shared_surprises": "Sorpresas Compartidas",
+    "new_advent_calendar": "Nuevo Calendario de Adviento",
+    "my_pocket_surprises": "Mis Sorpresas"
 
   }
   

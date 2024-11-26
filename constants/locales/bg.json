@@ -22,7 +22,16 @@
     "error": "Грешка",
     "please_fill_fields": "Моля, попълнете всички полета.",
     "login_successful": "Успешно влизане!",
-    "google_continue": "Продължи с Google"
+    "google_continue": "Продължи с Google",
+    "cancel": "Отказ",
+    "close": "Затвори",
+    "logout_confirm": "Сигурни ли сте, че искате да излезете?",
+    "logout": "Изход",
+    "settings": "Настройки",
+    "received_surprises": "Получени изненади",
+  "shared_surprises": "Споделени изненади",
+  "new_advent_calendar": "Нов календар",
+  "my_pocket_surprises": "Моите изненади"
 
   }
   

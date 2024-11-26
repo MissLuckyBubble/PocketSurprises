@@ -1,14 +1,15 @@
 import React from "react";
 import { ScrollView, Text, StyleSheet } from "react-native";
-import markdownContent from "../../../assets/Privacy/tac_en.js";
+import markdownContent from "../../assets/Privacy/tac_en";
 import Markdown from "react-native-markdown-display";
-import { Stack } from "expo-router";
-import i18n from "../../../constants/i18n";
+import BackButton from "../../components/BackButton";
 
 const TermsNconditions = () => {
   return (
     <ScrollView style={styles.container}>
+      <BackButton />
       <Markdown>{markdownContent}</Markdown>
+      <Text />
     </ScrollView>
   );
 };

@@ -22,7 +22,16 @@
     "error": "Fehler",
     "please_fill_fields": "Bitte füllen Sie alle Felder aus.",
     "login_successful": "Anmeldung erfolgreich!",
-    "google_continue": "Weiter mit Google"
-
+    "google_continue": "Weiter mit Google",
+    "cancel": "Abbrechen",
+    "close": "Schließen",
+    "logout_confirm": "Sind Sie sicher, dass Sie sich abmelden möchten?",
+    "logout": "Abmelden",
+    "settings": "Einstellungen",
+    "received_surprises": "Erhaltene Überraschungen",
+    "shared_surprises": "Geteilte Überraschungen",
+    "new_advent_calendar": "Neuer Adventskalender",
+    "my_pocket_surprises": "Meine Pocket-Überraschungen"
+ 
   }
   

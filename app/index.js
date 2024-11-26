@@ -1,8 +1,25 @@
-import { registerRootComponent } from "expo";
+import React, { useEffect } from "react";
+import { useRouter } from "expo-router";
+import { useSession } from "./others/ctx";
+import LoadingScreen from "./others/loading";
 
-import App from "./(tabs)";
+export default function Index() {
+  const router = useRouter();
+  const { session, isLoading } = useSession();
 
-// registerRootComponent calls AppRegistry.registerComponent('main', () => App);
-// It also ensures that whether you load the app in Expo Go or in a native build,
-// the environment is set up appropriately
-registerRootComponent(App);
+  useEffect(() => {
+    if (!isLoading) {
+      if (session) {
+        router.replace("/main/home");
+      } else {
+        router.replace("/Welcome");
+      }
+    }
+  }, [isLoading, session]);
+
+  if (isLoading) {
+    return <LoadingScreen />;
+  }
+
+  return null;
+}
